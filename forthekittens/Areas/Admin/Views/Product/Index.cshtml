@@ -1,0 +1,52 @@
+﻿@model List<Product>;
+
+<!--&atif(TempData["success"]!=null)
+{
+    <h2>&atTempData["success"]</h2>
+}
+instead of here we'll put it in a partial view _Notification-->
+<partial name="_Notification" />
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                Product List
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-area="Admin" asp-controller="Product" asp-action="Upsert" class="btn btn-secondary my-2 my-sm-0">
+                <img src="~/paw.svg" alt="Paw Image" width="20" height="20" />Create new Product
+            </a>
+        </div>
+    </div>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product Description</th>
+            <th>UPC</th>
+            <th>Manufacturer</th>
+            <th>List Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.Product_name</td>
+                <td>@obj.Product_description</td>
+                <td>@obj.Upc</td>
+                <td>@obj.Manufacturer</td>
+                <td>@obj.ListPrice</td>
+                <td>
+                    <a class="btn btn-info" asp-area="Admin" asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-area="Admin" asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

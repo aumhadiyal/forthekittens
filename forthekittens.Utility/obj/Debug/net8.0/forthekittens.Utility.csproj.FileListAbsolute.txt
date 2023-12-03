@@ -1,0 +1,11 @@
+E:\Visual Studio Projects\forthekittens.Utility\bin\Debug\net8.0\forthekittens.Utility.deps.json
+E:\Visual Studio Projects\forthekittens.Utility\bin\Debug\net8.0\forthekittens.Utility.dll
+E:\Visual Studio Projects\forthekittens.Utility\bin\Debug\net8.0\forthekittens.Utility.pdb
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.AssemblyInfo.cs
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.dll
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\refint\forthekittens.Utility.dll
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\forthekittens.Utility.pdb
+E:\Visual Studio Projects\forthekittens.Utility\obj\Debug\net8.0\ref\forthekittens.Utility.dll

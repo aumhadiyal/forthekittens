@@ -1,0 +1,44 @@
+﻿@page
+@model forthekittens_razor.Pages.Categories.IndexModel
+
+
+<h1>Category List</h1>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                Category List
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-page="/categories/create" class="btn btn-secondary my-2 my-sm-0">
+                <img src="~/paw.svg" alt="Paw Image" width="20" height="20" />Create new Category
+            </a>
+        </div>
+    </div>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>CategoryName</th>
+            <th>DisplayOrder</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.CategoriesList.OrderBy(u => u.DisplayOrder)) 
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.DisplayOrder</td>
+                <td>
+                    <a class="btn btn-info" asp-page="/categories/edit" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-page="/categories/delete" asp-route-id="@obj.Id">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

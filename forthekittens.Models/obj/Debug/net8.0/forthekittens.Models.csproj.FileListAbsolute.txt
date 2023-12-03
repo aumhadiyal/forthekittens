@@ -1,0 +1,12 @@
+E:\Visual Studio Projects\forthekittens.Models\bin\Debug\net8.0\forthekittens.Models.deps.json
+E:\Visual Studio Projects\forthekittens.Models\bin\Debug\net8.0\forthekittens.Models.dll
+E:\Visual Studio Projects\forthekittens.Models\bin\Debug\net8.0\forthekittens.Models.pdb
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.AssemblyInfo.cs
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.dll
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\refint\forthekittens.Models.dll
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.pdb
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\ref\forthekittens.Models.dll
+E:\Visual Studio Projects\forthekittens.Models\obj\Debug\net8.0\forthekittens.Models.csproj.AssemblyReference.cache

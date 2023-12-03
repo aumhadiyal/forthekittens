@@ -1,0 +1,30 @@
+﻿@page
+@model forthekittens_razor.Pages.Categories.editModel
+<form method="post">
+    <input asp-for="category.Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary"> Create Category</h2>
+        </div>
+    </div>
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3 row p-1">
+        <label asp-for="category.Name">Category Name</label>
+        <input asp-for="category.Name" type="text" class="form-control m-2" />
+        <span asp-validation-for="category.Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3 row p-1">
+        <label asp-for="category.DisplayOrder">Display Order</label>
+        <input asp-for="category.DisplayOrder" class="form-control m-2" />
+        <span asp-validation-for="category.DisplayOrder" class="text-danger"></span>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-3">
+            <button type="submit" class="btn btn-secondary my-2 my-sm-0 form-control">Update</button>
+        </div>
+        <div class="col-6 col-md-3">
+            <a asp-page="/categories/index" class="btn btn-secondary my-2 my-sm-0 form-control">Back</a>
+        </div>
+    </div>
+
+</form>
